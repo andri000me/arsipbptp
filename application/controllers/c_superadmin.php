@@ -48,7 +48,7 @@ class c_superadmin extends CI_Controller {
 		$this->load->view('v_template', $data);
 	}
 
-	public function  suratmasuk()
+	public function tambahsuratmasuk()
 	{
 		$this->form_validation->set_rules('no_surat', 'Nomor Surat', 'required|trim');
 		$this->form_validation->set_rules('tgl_surat', 'Tanggal Surat', 'required|trim');
