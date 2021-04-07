@@ -1,4 +1,4 @@
- <section class="content-header">
+<section class="content-header">
       <h1>
         Data Master
         <small>Users</small>
@@ -9,6 +9,7 @@
         <li class="active">Users</li>
       </ol>
 </section>
+
 <section class="content">
   <div class="row">
     <div class="col-xs-12">
@@ -23,7 +24,7 @@
           </div>          
         </div>
 
-        <div class="box-body">
+        <div class="box-body table-responsive">
           <table id="example1" class="table table-bordered table-striped">
             <thead>
             <tr>

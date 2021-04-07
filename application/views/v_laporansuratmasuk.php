@@ -22,12 +22,12 @@
  						</ul>
  						<div class="panel-body tab-content">
  							<div class="tab-pane active" id="tab-first">
- 								<span style='font-size:14pt; font-weight:bold; text-align:center '>
+ 								<span style='font-size:14pt; font-weight:bold;'>
  									Laporan Bulanan Data Surat Masuk
  								</span></br></br>
 
  								<form method="post" action="<?= base_url('c_superadmin/actionlaporanmasukbulanan/'); ?>" target='_blank1'>
- 									<div style="margin-left: 170px ">
+ 									
  										<div class="form-group">
  											<div class="col-sm-4">
  												<label>Pilih bulan</label>
@@ -63,18 +63,16 @@
  												<input type="submit" class="form-control btn btn-info" style="margin-top: 24px" value="Cetak">
  											</div>
  										</div>
- 									</div>
-
  								</form>
 
  							</div>
 
  							<div class="tab-pane" id="tab-second">
  								<span style='font-size:14pt;  '>
- 									<center>Laporan Tahunan Data Surat Masuk</center>
+ 									Laporan Tahunan Data Surat Masuk
  								</span></br></br>
  								<form method="post" action="<?= base_url('c_superadmin/actionlaporanmasuktahunan'); ?>" target='_blank1' class='form-vertical'>
- 									<div class="form-group" style="margin-left: 330px">
+ 									
  										<div class="col-sm-4">
  											<label>Pilih tahun</label>
  											<select name="tahun" class="form-control" required>
@@ -87,7 +85,7 @@
 
  											</select>
  										</div>
- 									</div>
+ 									
 
  									<div class="form-group">
  										<div class="col-sm-2">
